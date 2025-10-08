@@ -1,5 +1,6 @@
 import Hero from "./Hero";
 import Navbar from "./Navbar";
+import RegistrationFee from "./Registration";
 import Theme from "./Theme";
 // import Footer from "./Footer";
 
@@ -9,6 +10,7 @@ const Landing = () => {
       <Navbar />
       <Hero />
       <Theme />
+      <RegistrationFee />
       {/* <Footer /> */}
     </div>
   );
