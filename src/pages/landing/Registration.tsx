@@ -36,15 +36,6 @@ const RegistrationFee = () => {
                 </div>
             </div>
 
-            <div className="text-white flex items-center justify-center gap-4">
-                <div className="px-3 py-2 w-40 rounded-sm text-center bg-blue-600">
-                    Registration Link
-                </div>
-                <div className="px-3 py-2 w-40 rounded-sm text-center bg-blue-600">
-                    Click Here To Pay
-                </div>
-            </div>
-
             {/* Register and payment link */}
             <div className="text-white flex flex-co\l items-center justify-center text-center gap-4">
                 <div className="px-3 py-2 w-40 rounded-sm bg-blue-600">
