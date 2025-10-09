@@ -1,6 +1,7 @@
 import About from "./About";
 import Hero from "./Hero";
 import Navbar from "./Navbar";
+import OrganizingTeam from "./OrganizingTeam";
 import PublicationPartners from "./PublicationPartners";
 import RegistrationFee from "./Registration";
 import Theme from "./Theme";
@@ -15,6 +16,7 @@ const Landing = () => {
       <Theme />
       <RegistrationFee />
       <PublicationPartners />
+      <OrganizingTeam />
       {/* <Footer /> */}
     </div>
   );
