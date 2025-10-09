@@ -11,8 +11,7 @@ const RegistrationFee = () => {
                 </div>
 
                 <div className="p-2 flex w-full bg-gray-300/40">
-                    <div className="w-full text-start">         
-                        Research Scholar/Students
+                    <div className="w-full text-start">                    Research Scholar/Students
                     </div>
                     <div className="w-full text-start">                     
                         INR 4500/-
@@ -34,6 +33,7 @@ const RegistrationFee = () => {
                         $ 175/-
                     </div>
                 </div>
+
             </div>
 
             {/* Register and payment link */}

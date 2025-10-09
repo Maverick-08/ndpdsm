@@ -1,3 +1,4 @@
+import About from "./About";
 import Hero from "./Hero";
 import Navbar from "./Navbar";
 import PublicationPartners from "./PublicationPartners";
@@ -7,9 +8,10 @@ import Theme from "./Theme";
 
 const Landing = () => {
   return (
-    <div className="w-full max-w-7xl mx-auto flex flex-col">
+    <div className="flex flex-col">
       <Navbar />
       <Hero />
+      <About />
       <Theme />
       <RegistrationFee />
       <PublicationPartners />

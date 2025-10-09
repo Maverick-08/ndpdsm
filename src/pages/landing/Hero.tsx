@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Hero = () => {
   return (
     <div id='Home' className='flex flex-col justify-center items-center'>
