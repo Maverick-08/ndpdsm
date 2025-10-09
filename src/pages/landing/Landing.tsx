@@ -6,7 +6,7 @@ import OrganizingTeam from "./OrganizingTeam";
 import PublicationPartners from "./PublicationPartners";
 import RegistrationFee from "./Registration";
 import Theme from "./Theme";
-// import Footer from "./Footer";
+import Footer from "./Footer";
 
 const Landing = () => {
   return (
@@ -19,7 +19,7 @@ const Landing = () => {
       <PublicationPartners />
       <OrganizingTeam />
       <Contact />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };
