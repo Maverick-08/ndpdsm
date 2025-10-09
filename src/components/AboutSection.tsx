@@ -5,7 +5,7 @@ interface AboutSectionProps {
 
 const AboutSection = ({ title, description }: AboutSectionProps) => {
   return (
-    <div className="flex flex-col gap-2 text-left">
+    <div className="flex flex-col gap-2 px-4 py-3 text-left rounded-sm">
       <h2 className="text-blue-600 text-3xl tracking-wide font-semibold">{title}</h2>
       <p className="text-neutral-800">{description}</p>
     </div>

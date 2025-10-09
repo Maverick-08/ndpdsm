@@ -13,24 +13,24 @@ const Navbar = () => {
                 {/* MANIT logo */}
                 <div className="pl-4 flex gap-2">
                     <div className="">
-                        <img src={ manitLogo } alt="" className="w-16 h-16" />
+                        <img src={ manitLogo } alt="" className="w-14 h-14" />
                     </div>
                     <div className="">
-                        <img src={ ndpdsm } alt="" className="w-16 h-16" />
+                        <img src={ ndpdsm } alt="" className="w-14 h-14" />
                     </div>
                 </div>
 
                 {/* Direct navigation options to pages */}
-                <div className="flex gap-4 text-lg">
-                    <div className="text-bold">Home</div>
-                    <div className="text-bold">About</div>
-                    <div className="text-bold">Conference Details</div>
-                    <div className="text-bold">Registrations</div>   
-                    <div className="text-bold">Publication</div>
-                    <div className="text-bold">Schedule</div>
-                    <div className="text-bold">Commitee</div>
-                    <div className="text-bold">Brochure</div>
-                    <div className="text-bold">Contact</div>
+                <div className="flex gap-6 text-md text-bold">
+                    <div className="">Home</div>
+                    <div className="">About</div>
+                    <div className="">Conference Details</div>
+                    <div className="">Registrations</div>   
+                    <div className="">Publication</div>
+                    <div className="">Schedule</div>
+                    <div className="">Commitee</div>
+                    <div className="">Brochure</div>
+                    <div className="">Contact</div>
                 </div>
             </div>
         </section>

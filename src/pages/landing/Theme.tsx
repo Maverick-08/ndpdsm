@@ -65,7 +65,7 @@ const Theme = () => {
       <div className="flex justify-center items-center">
         <Badge title="THEME OF THE CONFERENCE" />
       </div>
-      <div className="grid grid-cols-3 gap-8">
+      <div className="px-6 grid grid-cols-3 gap-8">
         <ThemeCard
           title="Advanced Machining Processes"
           subTitle="(Code: AMP)"

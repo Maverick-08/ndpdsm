@@ -3,7 +3,7 @@ interface BadgeProps {
 }
 
 const Badge = ({ title }: BadgeProps) => {
-  return <span className="px-4 py-1.5 bg-sky-100 text-sky-600 tracking-wide text-sm font-semibold rounded-xl">{title}</span>;
+  return <span className="px-4 py-1.5 bg-sky-100 text-sky-600 tracking-wide text-lg font-semibold rounded-xl">{title}</span>;
 };
 
 export default Badge;
