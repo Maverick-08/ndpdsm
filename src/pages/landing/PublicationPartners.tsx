@@ -1,17 +1,20 @@
 import partner1 from "../../assets/publisher.png";
 import partner2 from "../../assets/taylor-francis.png";
+import Badge from "../../components/Badge";
 
 const PublicationPartners = () => {
   return (
-    <div className="mt-4 flex flex-col">
-      <div className="font-bold text-center text-3xl">Publication Partners</div>
+    <div className="mt-24 flex flex-col">
+      <div className="flex justify-center items-center">
+        <Badge title="PUBLICATION PARTNERS" />
+      </div>
       <div
         id="publication_partners"
         className="p-4 gap-4 w-full max-w-6xl flex mx-auto h-102"
       >
         <div className="w-full h-full flex flex-col items-center justify-center">
-          <img src={partner1} alt="" />
-          <img src={partner2} alt="" />
+          <img src={partner1} alt="" className="h-26"/>
+          <img src={partner2} alt="" className="h-26"/>
         </div>
 
         <div className="w-full h-full flex flex-col items-center justify-start">

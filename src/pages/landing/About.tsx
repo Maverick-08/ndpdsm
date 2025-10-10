@@ -2,8 +2,8 @@ import AboutSection from "../../components/AboutSection";
 
 const About = () => {
   return (
-    <div className="bg-blue-50">
-      <div className="py-12 w-full max-w-7xl mx-auto">
+    <div className="mt-20 bg-blue-50">
+      <div className="px-12 py-20 w-full max-w-7xl mx-auto flex flex-col gap-6">
         <div className="grid grid-cols-3 gap-6">
           <AboutSection
             title="About the Institute"
