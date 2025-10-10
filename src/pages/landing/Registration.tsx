@@ -16,16 +16,16 @@ const RegistrationFee = () => {
         </div>
 
         <div className="p-2 flex w-full bg-gray-300/40">
-          <div className="w-full text-start text-sm sm:text-lg"> Research Scholar/Students</div>
-          <div className="w-full text-start text-sm sm:text-lg">INR 4500/-</div>
+          <div className="w-full text-start text-sm sm:text-lg">Faculty/ Research Scholar/Students</div>
+          <div className="w-full text-start text-sm sm:text-lg">INR 5,000/-</div>
         </div>
         <div className="p-2 flex w-full ">
-          <div className="w-full text-start text-sm sm:text-lg">Academicians(INDIA)</div>
-          <div className="w-full text-start text-sm sm:text-lg">INR 6500/-</div>
+          <div className="w-full text-start text-sm sm:text-lg">Participants</div>
+          <div className="w-full text-start text-sm sm:text-lg">INR 2,500/-</div>
         </div>
         <div className="p-2 flex w-full bg-gray-300/40">
           <div className="w-full text-start text-sm sm:text-lg">Academicians(ABROAD)</div>
-          <div className="w-full text-start text-sm sm:text-lg">$ 175/-</div>
+          <div className="w-full text-start text-sm sm:text-lg">$ 200/-</div>
         </div>
       </div>
 
