@@ -7,12 +7,8 @@ const OrganizingSecretary = () => {
     title: string;
   }[] = [
     { member: "Dr. Sudhanshu Kumar", title: "Mechanical Engineering" },
-    {
-      member: "Dr. Vijay Bhaskar Semwal",
-      title: "Computer Science & Engineering",
-    },
-    { member: "Dr. Deepak Kumar", title: "Mechanical Engineering" },
     { member: "Dr. N. Jayanth", title: "CEPDSM" },
+    { member: "Dr. Jitendra Adhikari", title: "CEPDSM" },
   ];
   return (
     <div className="w-full flex flex-col gap-8">

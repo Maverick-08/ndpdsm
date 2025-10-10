@@ -21,6 +21,8 @@ const CoreOrganizingTeam = () => {
           <h2 className="text-xl text-center font-bold mb-4">CHAIRMAN</h2>
           <p className="text-lg text-neutral-700">Dr. KK Aharwal</p>
           <p className="text-sm text-neutral-500">HOD, Mechanical Engineering, MANIT Bhopal</p>
+          <p className="mt-2 text-lg text-neutral-700">Dr. C.M. Krishna</p>
+          <p className="text-sm text-neutral-500">HOC, Centre of Excellence in Product Design and Smart Manufacturing</p>
         </Card>
       </div>
     </div>
