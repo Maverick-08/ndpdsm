@@ -24,7 +24,7 @@ const Navbar = () => {
 
   return (
     <section
-      className={`fixed z-100 py-2 w-full flex items-center justify-center transition-all duration-500 ease-in-out  ${
+      className={`fixed z-100 py-2 px-4 w-full flex items-center justify-center transition-all duration-500 ease-in-out  ${
         isScrolled ? "bg-white shadow" : "bg-transparent"
       }`}
     >
@@ -48,9 +48,6 @@ const Navbar = () => {
           <div className="flex gap-6 text-md text-bold">
             <div className="">Home</div>
             <div className="">About</div>
-            <div className="">Conference Details</div>
-            <div className="">Registrations</div>
-            <div className="">Publication</div>
             <div className="">Schedule</div>
             <div className="">Commitee</div>
             <div className="">Brochure</div>

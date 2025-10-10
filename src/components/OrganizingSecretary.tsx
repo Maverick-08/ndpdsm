@@ -19,7 +19,7 @@ const OrganizingSecretary = () => {
       <div className="flex justify-center">
         <Badge title="NDPDSM 2025 ORGANIZING SECRETARY" />
       </div>
-      <div className="w-full grid grid-cols-2 gap-4">
+      <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-4">
         {organizingSecretaries.map((data, idx) => {
           return (
             <MemberCard key={idx} member={data.member} title={data.title} />

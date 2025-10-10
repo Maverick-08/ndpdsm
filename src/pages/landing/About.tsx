@@ -2,9 +2,9 @@ import AboutSection from "../../components/AboutSection";
 
 const About = () => {
   return (
-    <div className="mt-20 bg-blue-50">
-      <div className="px-12 py-20 w-full max-w-7xl mx-auto flex flex-col gap-6">
-        <div className="grid grid-cols-3 gap-6">
+    <div className="bg-blue-50">
+      <div className="px-6 py-20 w-full max-w-7xl mx-auto flex flex-col gap-6">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
           <AboutSection
             title="About the Institute"
             description="Maulana Azad National Institute of Technology Bhopal (An Institution of National Importance), offers various undergraduate and post graduate courses and research programs. Under the peaceful and friendly environment, MANIT is producing technocrats who are resources to Nation and the world. Our bright students with excellent technical skills have always contributed to the successes of various sections towards the technical group."

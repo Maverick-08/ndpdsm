@@ -4,13 +4,13 @@ import Badge from "../../components/Badge";
 
 const PublicationPartners = () => {
   return (
-    <div className="mt-24 flex flex-col">
+    <div className="pt-16 flex flex-col gap-16 text-wrap">
       <div className="flex justify-center items-center">
         <Badge title="PUBLICATION PARTNERS" />
       </div>
       <div
         id="publication_partners"
-        className="p-4 gap-4 w-full max-w-6xl flex mx-auto h-102"
+        className="px-6 flex flex-col lg:flex-row"
       >
         <div className="w-full h-full flex flex-col items-center justify-center">
           <img src={partner1} alt="" className="h-26"/>
@@ -44,9 +44,9 @@ const PublicationPartners = () => {
           </p>
           <a
             href="https://cmt3.research.microsoft.com/NPDSM2024/Submission/Index"
-            className="w-full text-start text-blue-500"
+            className="w-full underline cursor-pointer text-blue-500"
           >
-            https://cmt3.research.microsoft.com/NPDSM2024/Submission/Index
+            Click Here
           </a>
           <div className="mt-4 px-3 py-2 rounded-sm text-center text-white bg-blue-500">
             AUTHOR GUIDELINES

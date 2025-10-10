@@ -3,9 +3,9 @@ import NDPDSMLogo from "../assets/NPDSM_logo.webp";
 
 const ContactComponent = () => {
   return (
-    <div className="w-full flex flex-row gap-4">
+    <div className="w-full px-6 flex flex-col sm:flex-row gap-4">
       {/* Logo  */}
-      <div className="flex-1 shrink-0 flex flex-col items-center">
+      <div className="flex-1 shrink-0 flex flex-row sm:flex-col justify-center items-center gap-8 sm:gap-0">
         <img src={NDPDSMLogo} alt="NDPDSM Logo" className="size-32"/>
         <img src={manitLogo} alt="MANIT Logo" className="size-32"/>
       </div>
