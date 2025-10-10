@@ -25,7 +25,7 @@ const Navbar = () => {
 
   return (
     <section
-      className={`fixed z-100 py-2 px-4 w-full flex items-center justify-center transition-all duration-500 ease-in-out  ${
+      className={`fixed z-100 py-2 px-4 w-full hidden md:flex items-center justify-center transition-all duration-500 ease-in-out  ${
         isScrolled ? "bg-white shadow" : "bg-transparent"
       }`}
     >
