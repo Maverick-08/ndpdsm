@@ -1,7 +1,8 @@
 const FooterComponent = () => {
   return (
     <div className="border-t border-gray-200 pt-8">
-      <p className="text-center text-gray-500 text-sm">
+      <p className="text-center w-[70vw] mx-auto text-gray-500 text-sm">The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.</p>
+      <p className="mt-4 text-center text-gray-500 text-sm">
         &copy; 2026 NDPDSM. All rights reserved. New Product Development and
  Smart Manufacturing.
       </p>

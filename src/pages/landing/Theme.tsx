@@ -61,7 +61,7 @@ const Theme = () => {
     "Psychological aspects of image analysis and pattern recognition",
   ];
   return (
-    <div className="pt-16 flex flex-col gap-16">
+    <div id="theme" className="pt-20 flex flex-col gap-16">
       <div className="flex justify-center items-center">
         <Badge title="THEME OF THE CONFERENCE" />
       </div>

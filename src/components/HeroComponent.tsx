@@ -1,3 +1,5 @@
+import { Link } from "react-scroll";
+
 const HeroComponent = () => {
   return (
     <div
@@ -39,12 +41,12 @@ const HeroComponent = () => {
 
       <div className="flex items-center justify-center">
         <div className="flex items-center gap-8">
-          <button className="px-8 py-2 bg-white rounded-lg text-neutral-800 text-sm sm:text-lg font-semibold cursor-pointer hover:opacity-90">
+          <Link to="registration" smooth={true} duration={500} className="px-8 py-2 bg-white rounded-lg text-neutral-800 text-sm sm:text-lg font-semibold cursor-pointer hover:opacity-90">
             Register Now
-          </button>
-          <button className="px-8 py-2 bg-white rounded-lg text-neutral-800 text-sm sm:text-lg font-semibold cursor-pointer hover:opacity-90">
+          </Link>
+          <Link to="theme" smooth={true} duration={500} className="px-8 py-2 bg-white rounded-lg text-neutral-800 text-sm sm:text-lg font-semibold cursor-pointer hover:opacity-90">
             View Program
-          </button>
+          </Link>
         </div>
       </div>
 
