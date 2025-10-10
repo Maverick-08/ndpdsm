@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import manitLogo from "../../assets/MANIT_LOGO.webp";
 import ndpdsm from "../../assets/NPDSM_logo.webp";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -45,13 +46,55 @@ const Navbar = () => {
           </div>
 
           {/* Direct navigation options to pages */}
-          <div className="flex gap-6 text-md text-bold">
-            <div className="">Home</div>
-            <div className="">About</div>
-            <div className="">Schedule</div>
-            <div className="">Commitee</div>
-            <div className="">Brochure</div>
-            <div className="">Contact</div>
+          <div className="flex gap-6 text-lg text-bold">
+            <Link
+              to="home"
+              smooth={true}
+              duration={500}
+              className="cursor-pointer"
+            >
+              Home
+            </Link>
+            <Link
+              to="about"
+              smooth={true}
+              duration={500}
+              className="cursor-pointer"
+            >
+              About
+            </Link>
+            <Link
+              to="schedule"
+              smooth={true}
+              duration={500}
+              className="cursor-pointer"
+            >
+              Schedule
+            </Link>
+            <Link
+              to="committee"
+              smooth={true}
+              duration={500}
+              className="cursor-pointer"
+            >
+              Committee
+            </Link>
+            <Link
+              to="brochure"
+              smooth={true}
+              duration={500}
+              className="cursor-pointer"
+            >
+              Brochure
+            </Link>
+            <Link
+              to="contact"
+              smooth={true}
+              duration={500}
+              className="cursor-pointer"
+            >
+              Contact
+            </Link>
           </div>
         </div>
       </div>

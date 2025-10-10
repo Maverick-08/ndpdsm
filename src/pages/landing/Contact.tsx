@@ -3,7 +3,7 @@ import ContactComponent from "../../components/ContactComponent";
 
 const Contact = () => {
   return (
-    <div className="pt-16 flex flex-col items-center gap-4">
+    <div id="contact" className="pt-20 flex flex-col items-center gap-4">
       <Badge title="CONTACT" />
       <div className="w-full max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-4">
         <div className="flex-1 lg:flex-3/4">

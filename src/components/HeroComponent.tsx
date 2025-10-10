@@ -48,15 +48,15 @@ const HeroComponent = () => {
         </div>
       </div>
 
-      <div className="flex flex-col items-center">
+      <div className="px-2 flex flex-col items-center">
         <span className="mt-4 font-serif text-lg sm:text-xl font-medium underline">
           Organised By:{" "}
         </span>
-        <span className="mt-2 px-2 py-0.5 text-sm sm:text-lg text-balance text-center">
-          <span className="">Department of Mechanical Engineering</span>& Centre
-          of Excellence in Product Design and Smart Manufacturing
+        <span className="mt-2 px-4 rounded-lg py-0.5 text-sm sm:text-lg text-balance text-center bg-blue-800">
+          Department of Mechanical Engineering& Centre of Excellence in Product
+          Design and Smart Manufacturing
         </span>
-        <span className="mt-2 px-2 py-0.5 text-sm sm:text-lg text-balance text-center">
+        <span className="mt-2 px-2 py-0.5 text-sm sm:text-lg text-balance text-center bg-blue-800 rounded-lg">
           Maulana Azad National Institute of Technology, Bhopal - 462003 (Madhya
           Pradesh)
         </span>

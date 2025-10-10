@@ -6,7 +6,7 @@ import TechnicalProgramCommittee from "../../components/TechnicalProgramCommitte
 
 const OrganizingTeam = () => {
   return (
-    <div className="mt-8 py-8 px-4 bg-blue-50">
+    <div id="committee" className="mt-8 pt-20 px-4 bg-blue-50">
       <div className="w-full max-w-7xl mx-auto flex flex-col justify-center items-center">
         <Badge title="NDPDSM 2025 ORGANIZING TEAM" />
         <CoreOrganizingTeam />
