@@ -33,7 +33,7 @@ const MobileNavbar = () => {
           Home
         </Link>
         <Link
-          to="home"
+          to="about"
           smooth={true}
           duration={500}
           onClick={() => setIsNavbarOpen(false)}
@@ -41,7 +41,7 @@ const MobileNavbar = () => {
           About
         </Link>
         <Link
-          to="home"
+          to="schedule"
           smooth={true}
           duration={500}
           onClick={() => setIsNavbarOpen(false)}
@@ -49,7 +49,7 @@ const MobileNavbar = () => {
           Schedule
         </Link>
         <Link
-          to="home"
+          to="committee"
           smooth={true}
           duration={500}
           onClick={() => setIsNavbarOpen(false)}
@@ -57,7 +57,7 @@ const MobileNavbar = () => {
           Committee
         </Link>
         <Link
-          to="home"
+          to="brochure"
           smooth={true}
           duration={500}
           onClick={() => setIsNavbarOpen(false)}
@@ -65,7 +65,7 @@ const MobileNavbar = () => {
           Brochure
         </Link>
         <Link
-          to="home"
+          to="contact"
           smooth={true}
           duration={500}
           onClick={() => setIsNavbarOpen(false)}
