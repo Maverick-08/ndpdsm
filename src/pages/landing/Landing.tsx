@@ -8,6 +8,7 @@ import RegistrationFee from "./Registration";
 import Theme from "./Theme";
 import Footer from "./Footer";
 import MobileNavbar from "../../components/MobileNavbar";
+import Schedule from "./Schedule";
 
 const Landing = () => {
   return (
@@ -19,6 +20,7 @@ const Landing = () => {
       <Theme />
       <RegistrationFee />
       <PublicationPartners />
+      <Schedule />
       <OrganizingTeam />
       <Contact />
       <Footer />
