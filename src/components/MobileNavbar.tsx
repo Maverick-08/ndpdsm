@@ -12,11 +12,11 @@ const MobileNavbar = () => {
     <div className="px-4 fixed z-50 w-full flex md:hidden flex-col bg-white">
       <div className="flex justify-between items-center">
         <div className="flex gap-4">
-          <img src={manitLogo} alt="MANIT Logo" className="size-16" />
-          <img src={ndpdsm} alt="NDPDSM Logo" className="size-16" />
+          <img src={manitLogo} alt="MANIT Logo" className="size-12" />
+          <img src={ndpdsm} alt="NDPDSM Logo" className="size-12" />
         </div>
         <div onClick={() => setIsNavbarOpen((prev) => !prev)}>
-          {isNavbarOpen ? <IoClose />:<RxHamburgerMenu className="size-8" /> }
+          {isNavbarOpen ? <IoClose className="size-6"/>:<RxHamburgerMenu className="size-6" /> }
         </div>
       </div>
       <div

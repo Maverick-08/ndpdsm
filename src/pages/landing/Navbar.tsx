@@ -31,7 +31,7 @@ const Navbar = () => {
     >
       <div
         className={`w-full max-w-7xl ${
-          isScrolled ? "text-black" : "text-white"
+          isScrolled ? "text-black" : "text-neutral-800"
         }`}
       >
         <div className="w-full flex items-center justify-between">
