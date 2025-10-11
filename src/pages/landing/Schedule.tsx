@@ -2,7 +2,7 @@ import Badge from "../../components/Badge";
 
 const Schedule = () => {
   return (
-    <div id="schedule" className="mt-32 mb-16 flex flex-col items-center">
+    <div id="schedule" className="mt-32 mb-16 py-16 flex flex-col items-center bg-blue-50">
       <Badge title="IMPORTANT DATES" />
       <div className="pt-20"></div>
       <div className="w-full max-w-6xl flex flex-col gap-2">

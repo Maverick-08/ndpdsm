@@ -49,6 +49,14 @@ const MobileNavbar = () => {
           Schedule
         </Link>
         <Link
+          to="speakers"
+          smooth={true}
+          duration={500}
+          onClick={() => setIsNavbarOpen(false)}
+        >
+          Speakers
+        </Link>
+        <Link
           to="committee"
           smooth={true}
           duration={500}

@@ -9,6 +9,7 @@ import Theme from "./Theme";
 import Footer from "./Footer";
 import MobileNavbar from "../../components/MobileNavbar";
 import Schedule from "./Schedule";
+import KeynoteSpeakers from "./KeynoteSpeakers";
 
 const Landing = () => {
   return (
@@ -21,6 +22,7 @@ const Landing = () => {
       <RegistrationFee />
       <PublicationPartners />
       <Schedule />
+      <KeynoteSpeakers />
       <OrganizingTeam />
       <Contact />
       <Footer />

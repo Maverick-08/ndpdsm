@@ -72,6 +72,14 @@ const Navbar = () => {
               Schedule
             </Link>
             <Link
+              to="speakers"
+              smooth={true}
+              duration={500}
+              className="cursor-pointer"
+            >
+              Speakers
+            </Link>
+            <Link
               to="committee"
               smooth={true}
               duration={500}
