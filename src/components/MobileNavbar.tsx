@@ -3,7 +3,7 @@ import { IoClose } from "react-icons/io5";
 import { useState } from "react";
 import { Link } from "react-scroll";
 import manitLogo from "../assets/MANIT_LOGO.webp";
-import ndpdsm from "../assets/NPDSM_logo.webp";
+import ndpdsm from "../assets/NPDSM_logo.png";
 
 const MobileNavbar = () => {
   const [isNavbarOpen, setIsNavbarOpen] = useState(false);

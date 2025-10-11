@@ -1,5 +1,5 @@
 import manitLogo from "../assets/MANIT_LOGO.webp";
-import NDPDSMLogo from "../assets/NPDSM_logo.webp";
+import NDPDSMLogo from "../assets/NPDSM_logo.png";
 
 const ContactComponent = () => {
   return (

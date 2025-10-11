@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import manitLogo from "../../assets/MANIT_LOGO.webp";
-import ndpdsm from "../../assets/NPDSM_logo.webp";
+import ndpdsm from "../../assets/NPDSM_logo.png";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
