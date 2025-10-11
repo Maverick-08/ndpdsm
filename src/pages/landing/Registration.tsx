@@ -4,28 +4,30 @@ const RegistrationFee = () => {
   return (
     <section
       id="registration"
-      className="mt-12 p-20 w-full max-w-7xl mx-auto rounded-md bg-blue-50"
+      className="mt-12 pt-20 w-full max-w-7xl mx-auto rounded-md bg-blue-50"
     >
       <div className="flex justify-center items-center">
         <Badge title="REGISTRATION FEE" />
       </div>
-      <div className="pt-8 flex flex-col gap-4">
-        <div className="mb-4 flex text-lg sm:text-xl text-start font-bold font-mono">
-          <div className="w-full ">Category</div>
-          <div className="w-full">Registration Amount</div>
+      <div className="pt-8 px-2 flex flex-col gap-4">
+        <div className="px-2 flex justify-between items-center text-xl font-semibold">
+          <div className="flex-1">Category</div>
+          <div className="flex-1 text-center text-nowrap">
+            Registration Amount
+          </div>
         </div>
 
-        <div className="p-2 flex w-full bg-gray-300/40">
-          <div className="w-full text-start text-sm sm:text-lg">Faculty/ Research Scholar/Students</div>
-          <div className="w-full text-start text-sm sm:text-lg">INR 5,000/-</div>
+        <div className="px-2 py-1 flex justify-between items-center bg-gray-200 rounded-lg">
+          <div className="flex-1">Faculty/ Research Scholar/Students</div>
+          <div className="flex-1 text-center">INR 5,000/-</div>
         </div>
-        <div className="p-2 flex w-full ">
-          <div className="w-full text-start text-sm sm:text-lg">Participants</div>
-          <div className="w-full text-start text-sm sm:text-lg">INR 2,500/-</div>
+        <div className="px-2 flex justify-between items-center ">
+          <div className="flex-1">Participants</div>
+          <div className="flex-1 text-center">INR 2,500/-</div>
         </div>
-        <div className="p-2 flex w-full bg-gray-300/40">
-          <div className="w-full text-start text-sm sm:text-lg">Academicians(ABROAD)</div>
-          <div className="w-full text-start text-sm sm:text-lg">$ 200/-</div>
+        <div className="px-2 py-1 flex justify-between items-center bg-gray-200 rounded-lg">
+          <div className="flex-1">Academicians(ABROAD)</div>
+          <div className="flex-1 text-center">$ 200/-</div>
         </div>
       </div>
 

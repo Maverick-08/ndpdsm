@@ -9,7 +9,7 @@ const PublicationPartners = () => {
       </div>
       <div
         id="publication_partners"
-        className="px-6 flex flex-col lg:flex-row"
+        className="px-6 flex flex-col lg:flex-row gap-8 lg:gap-0"
       >
         <div className="w-full h-full flex flex-col items-center justify-center">
           <img src={publicationPartner} alt="Publication partner" className="h-44"/>
