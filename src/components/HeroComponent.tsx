@@ -55,7 +55,7 @@ const HeroComponent = () => {
           Organised By:{" "}
         </span>
         <span className="mt-2 px-4 rounded-lg py-0.5 text-sm sm:text-lg text-balance text-center text-neutral-800 font-semibold">
-          Department of Mechanical Engineering& Centre of Excellence in Product
+          Department of Mechanical Engineering & Centre of Excellence in Product
           Design and Smart Manufacturing
         </span>
         <span className="mt-2 px-2 py-0.5 text-sm sm:text-lg text-balance text-center text-neutral-800 font-semibold">
