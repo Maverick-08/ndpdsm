@@ -4,7 +4,7 @@ const RegistrationFee = () => {
   return (
     <section
       id="registration"
-      className="mt-12 pt-20 w-full max-w-7xl mx-auto rounded-md bg-blue-50"
+      className="mt-12 py-20 w-full max-w-7xl mx-auto rounded-md bg-blue-50"
     >
       <div className="flex justify-center items-center">
         <Badge title="REGISTRATION FEE" />
