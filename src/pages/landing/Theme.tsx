@@ -60,6 +60,22 @@ const Theme = () => {
     "Data and Knowledge Extraction from Images",
     "Psychological aspects of image analysis and pattern recognition",
   ];
+
+  const industrialInternetOfThingsThemes: string[] = [
+    "Industrial IoT architectures and communication standards",
+    "Smart sensors, edge, and fog computing for manufacturing systems",
+    "Real-time data acquisition and integration for connected industries",
+    "Interoperability and standardization in industrial communication networks",
+    "Energy-efficient and sustainable IIoT implementations",
+  ];
+  const industrialAutomationAndMechantronicsThemes: string[] = [
+    "Design and development of mechatronic systems for automation",
+    "Advanced control systems and motion control in manufacturing",
+    "Sensors, actuators, and embedded systems for industrial automation",
+    "PLC, SCADA, and real-time system integration",
+    "Collaborative and autonomous robotic systems",
+  ];
+
   return (
     <div id="theme" className="pt-20 flex flex-col gap-16">
       <div className="flex justify-center items-center">
@@ -83,18 +99,23 @@ const Theme = () => {
         />
         <ThemeCard
           title="Additive Manufacturing"
-          subTitle="(Code: SM)"
+          subTitle="(Code: AM)"
           description={adaptiveManufacturingThemes}
         />
         <ThemeCard
-          title="Additive Manufacturing"
-          subTitle="(Code: SM)"
-          description={adaptiveManufacturingThemes}
-        />
-        <ThemeCard
-          title="AI Enabled Smart Manufacturing"
+          title="AI/ML Enabled Smart Manufacturing"
           subTitle="(Code: AESM)"
           description={aiEnabledSmartManufacturingThemes}
+        />
+        <ThemeCard
+          title="Industrial Internet of Things"
+          subTitle="(Code: IIOT)"
+          description={industrialInternetOfThingsThemes}
+        />
+        <ThemeCard
+          title="Industrial Automation and Mechatronics "
+          subTitle="(Code: IAM)"
+          description={industrialAutomationAndMechantronicsThemes}
         />
       </div>
     </div>
