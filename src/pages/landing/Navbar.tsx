@@ -46,7 +46,7 @@ const Navbar = () => {
           </div>
 
           {/* Direct navigation options to pages */}
-          <div className="flex-2/5 flex justify-center gap-6 text-lg text-bold ">
+          <div className="flex-2/5 flex justify-end gap-4 xl:gap-6 text-lg text-bold ">
             <Link
               to="home"
               smooth={true}
