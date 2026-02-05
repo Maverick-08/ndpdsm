@@ -20,20 +20,14 @@ const About = () => {
         </div>
         <div className="flex flex-col gap-4">
           <AboutSection
-            title="NPDSM-2024 Conference"
-            description="Mechanical Engineering will evolve and collaborate as a global profession over the next decade through its emerging trends to develop engineering solutions that foster a cleaner, safer and sustainable world.
-
-Product Design and Smart Manufacturing involves interdisciplinary research and enables development of new products by making use of innovative technologies. Also, it allows us to customize the products at any time based on customer requirements.
-
-NPDSM 2024 aims to serve as a platform for researchers, academicians and industrialists to interact and exchange their ideas and research results so as to accelerate progress in development of new products with the help of smart manufacturing techniques."
+            title="Past Conference: NPDSM-2024"
+            description="NPDSM-2024 brought together researchers, academicians, and industry professionals to explore advancements in Product Design and Smart Manufacturing. The conference showcased innovative technologies, intelligent manufacturing practices, and evolving engineering approaches aimed at supporting a cleaner and more sustainable future. It served as a productive platform for sharing ideas, presenting research, and strengthening academic–industry collaboration."
+            linkHref="https://conf.manit.ac.in/NPDSM2024/"
+            linkText="Visit NPDSM-2024"
           />
           <AboutSection
-            title="About NPDSM-2025 Conference"
-            description="Mechanical Engineering will evolve and collaborate as a global profession over the next decade through its emerging trends to develop engineering solutions that foster a cleaner, safer and sustainable world.
-
-Product Design and Smart Manufacturing involves interdisciplinary research and enables development of new products by making use of innovative technologies. Also, it allows us to customize the products at any time based on customer requirements.
-
-NPDSM 2024 aims to serve as a platform for researchers, academicians and industrialists to interact and exchange their ideas and research results so as to accelerate progress in development of new products with the help of smart manufacturing techniques."
+            title="About NPDSM-2026 Conference"
+            description="NPDSM-2026 focuses on the next wave of innovation in smart manufacturing and product development. The conference aims to highlight emerging engineering trends, intelligent automation, and interdisciplinary research that support custom, high-performance, and sustainable products. It brings together experts from academia and industry to discuss future-ready solutions and drive the next phase of mechanical engineering advancements."
           />
         </div>
       </div>
