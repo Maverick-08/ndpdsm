@@ -10,13 +10,23 @@ const MobileNavbar = () => {
 
   return (
     <div className="px-4 fixed z-50 w-full flex md:hidden flex-col bg-white">
-      <div className="flex justify-between items-center">
-        <div className="flex gap-4">
-          <img src={manitLogo} alt="MANIT Logo" className="size-12" />
-          <img src={ndpdsm} alt="NDPDSM Logo" className="size-12" />
+      <div className="flex justify-between items-center gap-4">
+        <div className="flex-11/12 flex gap-2">
+          <img src={manitLogo} alt="MANIT Logo" className="size-16" />
+          <div>
+            <h1 className="text-center font-bold text-lg">NPDSM</h1>
+            <h1 className="text-balance text-center text-xs text-neutral-800">
+              New Product Development and Smart Manufacturing
+            </h1>
+          </div>
+          <img src={ndpdsm} alt="NDPDSM Logo" className="size-16" />
         </div>
-        <div onClick={() => setIsNavbarOpen((prev) => !prev)}>
-          {isNavbarOpen ? <IoClose className="size-6"/>:<RxHamburgerMenu className="size-6" /> }
+        <div className="flex-1/12 flex justify-center items-center" onClick={() => setIsNavbarOpen((prev) => !prev)}>
+          {isNavbarOpen ? (
+            <IoClose className="size-6" />
+          ) : (
+            <RxHamburgerMenu className="size-6" />
+          )}
         </div>
       </div>
       <div
