@@ -8,7 +8,7 @@ const HeroComponent = () => {
     >
       <div className="pt-4 lg:pt-24 xl:pt-8 flex flex-col items-center gap-6">
         <div className="text-4xl lg:text-6xl font-bold text-slate-50 drop-shadow-[0_2px_12px_rgba(0,0,0,0.6)]">NPDSM-2026</div>
-        <div className="text-lg lg:text-xl font-thin text-slate-300">
+        <div className="text-lg lg:text-xl font-thin text-slate-100 lg:text-slate-300">
           <span>
             2<sup>nd </sup>
           </span>
