@@ -8,7 +8,11 @@ const TechnicalProgramCommittee = () => {
   }[] = [
   { member: "Dr. R.M.Sarviya", title: "MANIT Bhopal" },
   { member: "Dr. Siraj Ahmed", title: "MANIT Bhopal" },
-  { member: "Dr. K. R. Aharwal", title: "MANIT Bhopal" },
+  { member: "Dr. Rajesh Gupta", title: "MANIT Bhopal" },
+  { member: "Dr. Deepak Kumar", title: "MANIT Bhopal" },
+  { member: "Dr. Kuldeep Yadav", title: "MANIT Bhopal" },
+  { member: "Dr. Asish Kumar Panda", title: "MANIT Bhopal" },
+  { member: "Dr. Krishnan S", title: "MANIT Bhopal" },
   { member: "Dr. J. L. Bhagoria", title: "MANIT Bhopal" },
   { member: "Dr. Rajesh Purohit", title: "MANIT Bhopal" },
   { member: "Dr. R. K. Dwivedi", title: "MANIT Bhopal" },
@@ -37,15 +41,15 @@ const TechnicalProgramCommittee = () => {
   { member: "Dr. Ashish Das", title: "MANIT Bhopal" },
   { member: "Dr. Vikash Kumar", title: "MANIT Bhopal" },
   { member: "Dr. Emon Barua", title: "MANIT Bhopal" },
-  { member: "Dr. Lalsingh Devosath", title: "" },
-  { member: "Dr. Aningi Mokhalingam", title: "" },
-  { member: "Dr. Soumya Ranjan Guru", title: "" }
+  { member: "Dr. Lalsingh Devsoth", title: "MANIT Bhopal" },
+  { member: "Dr. Aningi Mokhalingam", title: "MANIT Bhopal" },
+  { member: "Dr. Soumya Ranjan Guru", title: "MANIT Bhopal" }
 ];
 
   return (
     <div className="pt-16 w-full flex flex-col gap-8">
       <div className="flex justify-center">
-        <Badge title="NDPDSM 2025 ADVISORY COMMITTEE" />
+        <Badge title="NDPDSM 2026 TECHNICAL PROGRAM COMMITTEE" />
       </div>
       <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {technicalProgramCommitteeMembers.map((data, idx) => {

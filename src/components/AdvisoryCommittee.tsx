@@ -42,7 +42,7 @@ const AdvisoryCommittee = () => {
   return (
     <div className="pt-16 w-full flex flex-col gap-8">
       <div className="flex justify-center">
-        <Badge title="NDPDSM 2025 ADVISORY COMMITTEE" />
+        <Badge title="NDPDSM 2026 ADVISORY COMMITTEE" />
       </div>
       <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {advisoryCommitteeMembers.map((data, idx) => {
