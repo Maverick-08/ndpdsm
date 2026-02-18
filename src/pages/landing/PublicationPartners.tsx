@@ -1,6 +1,7 @@
 import publicationPartner1 from "../../assets/publicationPartner1.jpg";
 import publicationPartner2 from "../../assets/springerLogo.jpg"
 import Badge from "../../components/Badge";
+import PaperGuidelines from "../../../public/Paper-Guidelines.pdf"
 
 const PublicationPartners = () => {
   return (
@@ -40,9 +41,9 @@ const PublicationPartners = () => {
           >
             Submit Paper
           </a>
-          <div className="mt-8 sm:mt-4 px-3 py-2 rounded-sm text-center text-white bg-blue-500 cursor-pointer">
+          <a href={PaperGuidelines} download={"Paper-Guidelines.pdf"} className="mt-8 sm:mt-4 px-3 py-2 rounded-sm text-center text-white bg-blue-500 cursor-pointer">
             AUTHOR GUIDELINES
-          </div>
+          </a>
         </div>
       </div>
     </div>
