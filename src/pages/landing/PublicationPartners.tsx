@@ -1,4 +1,5 @@
-import publicationPartner from "../../assets/scopus.jpeg"
+import publicationPartner1 from "../../assets/publicationPartner1.jpg";
+import publicationPartner2 from "../../assets/springerLogo.jpg"
 import Badge from "../../components/Badge";
 
 const PublicationPartners = () => {
@@ -11,22 +12,35 @@ const PublicationPartners = () => {
         id="publication_partners"
         className="px-6 flex flex-col lg:flex-row gap-8 lg:gap-0"
       >
-        <div className="w-full h-full flex flex-col items-center justify-center">
-          <img src={publicationPartner} alt="Publication partner" className="h-44"/>
+        <div className="w-full h-full flex flex-col sm:flex-row justify-center items-center gap-8">
+          <img
+            src={publicationPartner1}
+            alt="Publication partner"
+            className="h-44"
+          />
+          <img
+            src={publicationPartner2}
+            alt="Publication partner"
+            className="h-24 w-56"
+          />
         </div>
 
         <div className="w-full h-full flex flex-col items-center justify-start">
           <p>
-            Accepted and presented papers, including extended versions where applicable, will be published in SCOPUS, SCI, or Web of Science indexed proceedings. Details of the publishing journals will be provided soon. Submit the paper in the given link
+            Select papers from the conference will be published by Springer as a
+            proceedings book volume. Springer will conduct quality checks on the
+            accepted papers and only papers that pass these checks will be
+            published. Springer Nature does not charge any money for publication
+            of Non-Open Access content. <span className="font-semibold">Abstracts/extended abstracts and short papers (less than 4 pages) are not considered for publication.</span>
           </p>
 
           <a
             href="https://cmt3.research.microsoft.com/NPDSM2026/Submission/Index"
-            className="w-full underline cursor-pointer text-blue-500"
+            className="pt-4 w-full underline cursor-pointer text-blue-500"
           >
-            Click Here
+            Submit Paper
           </a>
-          <div className="mt-4 px-3 py-2 rounded-sm text-center text-white bg-blue-500 cursor-pointer">
+          <div className="mt-8 sm:mt-4 px-3 py-2 rounded-sm text-center text-white bg-blue-500 cursor-pointer">
             AUTHOR GUIDELINES
           </div>
         </div>
