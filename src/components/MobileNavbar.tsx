@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Link } from "react-scroll";
 import manitLogo from "../assets/MANIT_LOGO.webp";
 import ndpdsm from "../assets/NPDSM_logo.png";
+import Brochure from "../assets/Broucher.pdf";
 
 const MobileNavbar = () => {
   const [isNavbarOpen, setIsNavbarOpen] = useState(false);
@@ -21,7 +22,10 @@ const MobileNavbar = () => {
           </div>
           <img src={ndpdsm} alt="NDPDSM Logo" className="size-16" />
         </div>
-        <div className="flex-1/12 flex justify-center items-center" onClick={() => setIsNavbarOpen((prev) => !prev)}>
+        <div
+          className="flex-1/12 flex justify-center items-center"
+          onClick={() => setIsNavbarOpen((prev) => !prev)}
+        >
           {isNavbarOpen ? (
             <IoClose className="size-6" />
           ) : (
@@ -51,12 +55,12 @@ const MobileNavbar = () => {
           About
         </Link>
         <Link
-          to="schedule"
+          to="theme"
           smooth={true}
           duration={500}
           onClick={() => setIsNavbarOpen(false)}
         >
-          Schedule
+          Conference Details
         </Link>
         <Link
           to="speakers"
@@ -74,14 +78,15 @@ const MobileNavbar = () => {
         >
           Committee
         </Link>
-        <Link
-          to="brochure"
-          smooth={true}
-          duration={500}
+        <a
+          href={Brochure}
+          download
+          className="cursor-pointer"
           onClick={() => setIsNavbarOpen(false)}
         >
           Brochure
-        </Link>
+        </a>
+
         <Link
           to="contact"
           smooth={true}

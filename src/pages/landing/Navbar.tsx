@@ -1,5 +1,6 @@
 import manitLogo from "../../assets/MANIT_LOGO.webp";
 import ndpdsm from "../../assets/NPDSM_logo.png";
+import Brochure from "../../assets/Broucher.pdf";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
@@ -26,23 +27,21 @@ const Navbar = () => {
     <section
       className={`fixed z-100 py-2 px-4 w-full hidden md:flex items-center justify-center transition-all duration-500 ease-in-out  bg-white`}
     >
-      <div
-        className={`w-full max-w-7xl `}
-      >
+      <div className={`w-full max-w-7xl `}>
         <div className="w-full flex items-center justify-between ">
           <div className="pl-4 flex-1/5 flex items-center gap-4 ">
+            {/* MANIT logo */}
+            <img src={manitLogo} alt="" className="size-24 rounded-full" />
 
-              {/* MANIT logo */}
-              <img src={manitLogo} alt="" className="size-24 rounded-full" />
+            <div>
+              <h1 className="text-center font-bold text-2xl">NPDSM</h1>
+              <h1 className="text-balance text-center text-sm text-neutral-800">
+                New Product Development and Smart Manufacturing
+              </h1>
+            </div>
 
-              <div>
-                <h1 className="text-center font-bold text-2xl">NPDSM</h1>
-                <h1 className="text-balance text-center text-sm text-neutral-800">New Product Development and Smart Manufacturing</h1>
-              </div>
-
-              {/* NDPSDSM Logo  */}
-              <img src={ndpdsm} alt="" className="size-24" />
-            
+            {/* NDPSDSM Logo  */}
+            <img src={ndpdsm} alt="" className="size-24" />
           </div>
 
           {/* Direct navigation options to pages */}
@@ -64,12 +63,12 @@ const Navbar = () => {
               About
             </Link>
             <Link
-              to="schedule"
+              to="theme"
               smooth={true}
               duration={500}
               className="cursor-pointer"
             >
-              Schedule
+              Conference
             </Link>
             <Link
               to="speakers"
@@ -87,14 +86,15 @@ const Navbar = () => {
             >
               Committee
             </Link>
-            <Link
-              to="brochure"
-              smooth={true}
-              duration={500}
+
+            <a
+              href={Brochure}
+              download="Brochure.pdf"
               className="cursor-pointer"
             >
               Brochure
-            </Link>
+            </a>
+
             <Link
               to="contact"
               smooth={true}
