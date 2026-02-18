@@ -24,7 +24,7 @@ const KeynoteSpeakers = () => {
         <SpeakerCard
           image={keyNoteSpeaker3}
           speakerName="Dr. Sachin Salunke"
-          college="University of Turkey"
+          college="Gazi Univesity, Ankara, Türkiye"
         />
       </div>
     </div>
