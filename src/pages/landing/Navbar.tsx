@@ -1,6 +1,6 @@
 import manitLogo from "../../assets/MANIT_LOGO.webp";
 import ndpdsm from "../../assets/NPDSM_logo.png";
-import Brochure from "../../assets/Broucher.pdf";
+import Brochure from "../../../public/Broucher.pdf";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
