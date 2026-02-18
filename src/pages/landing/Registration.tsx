@@ -31,15 +31,31 @@ const RegistrationFee = () => {
         </div>
       </div>
 
-      {/* Register and payment link */}
-      <div className="pt-8 text-white flex flex-col sm:flex-row items-center justify-center text-center gap-4">
-        <div className="px-3 py-2 w-40 rounded-sm bg-blue-600">
-          Registration Link
-        </div>
-        <div className="px-3 py-2 w-40 rounded-sm bg-blue-600">
-          Click Here To Pay
-        </div>
+      {/* Register Button */}
+      <div className="pt-8 flex justify-center">
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSfxzeVXNWVIa2OxKMRgGObG66ZxypBfBMx3-VkAPqO2Jf67dA/viewform?usp=preview"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-3 py-2 rounded-sm bg-blue-600 text-white cursor-pointer"
+        >
+          Start Registration Process
+        </a>
       </div>
+
+      <div className="pt-4 pl-4">
+              <div className="text-2xl text-red-600">📌 NOTE</div>
+              <p className="pt-2">
+                <span className="font-medium">Bank Name:</span> State Bank of India<br />
+                <span className="font-medium">Name:</span> MANIT, Bhopal <br />
+                <span className="font-medium">Account Name:</span> Director, MANIT Bhopal <br />
+                <span className="font-medium">Account Number:</span> 10020150107 <br />
+                <span className="font-medium">IFSC Code:</span> SBIN0001608 <br />
+                <span className="font-medium">SWIFT Code:</span> SBININBB
+                <span className="font-medium">IBAN Number:</span> SBININBB268
+              </p>
+              <p>Mention "NPDSM2026" in the payment remarks.</p>
+            </div>
     </section>
   );
 };
