@@ -4,7 +4,7 @@ import { useState } from "react";
 import { Link } from "react-scroll";
 import manitLogo from "../assets/MANIT_LOGO.webp";
 import ndpdsm from "../assets/NPDSM_logo.png";
-// import Brochure from "../../public/Broucher.pdf";
+import Brochure from "../../public/Broucher.pdf";
 
 const MobileNavbar = () => {
   const [isNavbarOpen, setIsNavbarOpen] = useState(false);
@@ -79,7 +79,7 @@ const MobileNavbar = () => {
           Committee
         </Link>
         <a
-          href="/Broucher-5hg9WNsv.pdf"
+          href={Brochure}
           download
           className="cursor-pointer"
           onClick={() => setIsNavbarOpen(false)}
