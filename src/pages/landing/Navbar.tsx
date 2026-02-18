@@ -1,6 +1,6 @@
 import manitLogo from "../../assets/MANIT_LOGO.webp";
 import ndpdsm from "../../assets/NPDSM_logo.png";
-import Brochure from "../../../public/Broucher.pdf";
+// import Brochure from "../../../public/Broucher.pdf";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
@@ -88,7 +88,7 @@ const Navbar = () => {
             </Link>
 
             <a
-              href={Brochure}
+              href="/Broucher-5hg9WNsv.pdf"
               download="Brochure.pdf"
               className="cursor-pointer"
             >
