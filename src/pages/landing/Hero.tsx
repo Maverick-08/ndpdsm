@@ -16,7 +16,7 @@ const Hero = () => {
         alt="background image"
         className="absolute z-0 w-full h-full object-cover "
       />
-      <div className="absolute top-0 z-10 h-full w-full bg-black opacity-10 md:opacity-30">
+      <div className="absolute top-0 z-10 h-full w-full bg-black opacity-60">
       </div>
         <HeroComponent />
     </div>
