@@ -1,6 +1,7 @@
 import AdvisoryCommittee from "../../components/AdvisoryCommittee";
 import Badge from "../../components/Badge";
 import CoreOrganizingTeam from "../../components/CoreOrganizingTeam";
+import InternationalCoordinator from "../../components/InternationalCoordinator";
 import OrganizingSecretary from "../../components/OrganizingSecretary";
 import TechnicalProgramCommittee from "../../components/TechnicalProgramCommittee";
 
@@ -11,6 +12,7 @@ const OrganizingTeam = () => {
         <Badge title="NDPDSM 2026 ORGANIZING TEAM" />
         <CoreOrganizingTeam />
         <OrganizingSecretary />
+        <InternationalCoordinator />
         <AdvisoryCommittee />
         <TechnicalProgramCommittee />
       </div>
