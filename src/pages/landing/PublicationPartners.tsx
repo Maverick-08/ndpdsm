@@ -32,7 +32,7 @@ const PublicationPartners = () => {
             proceedings book volume. Springer will conduct quality checks on the
             accepted papers and only papers that pass these checks will be
             published. Springer Nature does not charge any money for publication
-            of Non-Open Access content. <span className="font-semibold">Abstracts/extended abstracts and short papers (less than 4 pages) are not considered for publication.</span>
+            of Non-Open Access content. <span className="font-semibold">Abstracts/extended abstracts and short papers (less than 4 pages) are not considered for publication.</span> Papers that do not pass Springer's quality checks will be published in the book "Recent Advances in New Product Development and Smart Manufacturing: Proceedings of NPDSM 2026" (ISBN: <span className="underline decoration-blue-500 text-blue-500">978-93-5782-288-6</span>)
           </p>
 
           <a
