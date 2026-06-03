@@ -28,9 +28,14 @@ const HeroComponent = () => {
             className="h-16 sm:h-20 w-52 sm:w-56"
           />
         </div>
-        <div className="text-2xl font-semibold text-slate-50">
-          26 <sup>th</sup>- 27 <sup>th</sup>
+        <div className="flex flex-col gap-2">
+          <div className="text-2xl font-semibold text-slate-50">
+            26 <sup>th</sup>- 27 <sup>th</sup>
           June, 2026
+          </div>
+          <div className="text-xl font-semibold text-center">
+            Mode: Online
+          </div>
         </div>
       </div>
 
