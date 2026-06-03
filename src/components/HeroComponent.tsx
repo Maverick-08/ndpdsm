@@ -33,7 +33,7 @@ const HeroComponent = () => {
             26 <sup>th</sup>- 27 <sup>th</sup>
           June, 2026
           </div>
-          <div className="text-xl font-semibold text-center">
+          <div className="text-xl font-semibold text-center text-slate-100 lg:text-slate-300">
             Mode: Online
           </div>
         </div>
